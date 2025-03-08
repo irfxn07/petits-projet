@@ -1,0 +1,36 @@
+* {
+    font-family: nunito;
+    background-color: aliceblue;
+}
+
+.container {
+    width: 50%; /* Définit une largeur */
+    margin: 0 auto;
+}
+
+.container input#myTextInput {
+    border-style: dashed;
+    background-color: rgb(224, 236, 246);
+}
+
+h1#myH1{
+    font-weight: 800;
+}
+
+button#mySubmit {
+    background-color: rgb(224, 236, 246);
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 2px;
+    transition: background-color 0.1s ease;
+}
+
+button#mySubmit:hover {
+    background-color: rgb(156, 215, 255);
+    border: none;
+}
+
+h3#myResult{
+    font-weight: 600;
+}
