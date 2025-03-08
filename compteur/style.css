@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+label#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    text-decoration: solid;
+}
+
+#btn_container{
+    text-align: center;
+}
+
+.all_container {
+    background-color: rgb(255, 144, 235);
+    border-radius: 30px;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 1000px;
+    border: solid 2px;
+    border-color: rgb(126, 37, 209);
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1.8em;
+    background-color: rgb(255, 95, 244);
+    color: white;
+    border-color: rgb(126, 37, 209);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.btn:hover {
+    background-color: rgb(126, 37, 209);
+}
